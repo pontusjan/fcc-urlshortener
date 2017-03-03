@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link href='assets/skeleton.css' type='text/css' rel='stylesheet'/>
+        <link href='assets/style.css' type='text/css' rel='stylesheet'/>
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1>URL Shortener Microservice</h1>
+            <p><strong>by <a href="http://www.pontusjansson.se" target="_blank">Pontus Jansson</a></strong></p>
+            <p>This is an API built as a challenge from freeCodeCamp. The challenge is to fulfill the following User Stories:</p>
+            <ul>
+                <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+                <li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+                <li>When I visit that shortened URL, it will redirect me to my original link.</li>
+            </ul>
+            <a class="button button-primary" href="/api/whoami">Go to API</a>
+            <p><strong>Example input:</strong></p>
+            <p><code>https://MYADRESS/new/https://www.google.com</code></p>
+            <p><strong>Example output:</strong></p>
+            <p><code>{ "original_url":"http://www.google.com", "short_url":"https://MYADRESS/8170" }</code></p>
+            <p><strong>Example usage:</strong></p>
+            <p><code>https://MYADRESS/8170</code> will redirect to <code>http://www.google.com</code></p>
+        </div>
+    </body>
+</html>
